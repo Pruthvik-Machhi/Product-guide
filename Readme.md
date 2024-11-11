@@ -15,6 +15,6 @@ PyPi LINK : https://pypi.org/project/pyprik/
 
 Developed the own pyprik Python library for recommendation and data preprocessing tasks.
 
-Built price prediction and mobile suggestion model based on user preferences and budget.
+Built price prediction and mobile suggestion model based on user preferences and budget .
 
 Web scraped mobile data from Smartprix using Beautiful Soup for analysis and prediction. 
