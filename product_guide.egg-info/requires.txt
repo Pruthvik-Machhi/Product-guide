@@ -5,5 +5,3 @@ pyprik
 scikit-learn
 matplotlib
 seaborn
-python-dotenv
--e .

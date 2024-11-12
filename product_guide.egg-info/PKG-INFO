@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: product-guide
+Version: 0.0.1
+Author: Pruthvik-Machhi
+Requires-Dist: streamlit
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pyprik
+Requires-Dist: scikit-learn
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
