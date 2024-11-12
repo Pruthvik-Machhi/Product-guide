@@ -9,3 +9,4 @@ Requires-Dist: pyprik
 Requires-Dist: scikit-learn
 Requires-Dist: matplotlib
 Requires-Dist: seaborn
+Requires-Dist: python-dotenv
