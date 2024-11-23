@@ -1,8 +1,5 @@
-streamlit
-numpy
-pandas
-pyprik
-scikit-learn
-matplotlib
-seaborn
-python-dotenv
+streamlit==1.29.0
+numpy==1.26.4
+pandas==2.1.4
+pyprik==0.0.1
+scikit-learn==1.4.2
