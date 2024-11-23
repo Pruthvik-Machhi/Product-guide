@@ -2,7 +2,6 @@ def find_top_matching(data, selected_values, top_n=5):
     """
     Find the top matching items based on the selected values.
     """
-    # Example implementation
     return data.head(top_n)
 
 def get_recommendations(model, scaler, input_vector, storage, size):
