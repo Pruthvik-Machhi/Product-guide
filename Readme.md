@@ -51,4 +51,42 @@ PyPi LINK : https://pypi.org/project/pyprik/
   <img src="Research/Screenshot 2024-12-01 144717.png" alt="Screenshot 1" >
 </p>
 
+Here’s how you can present the model performance and suggestions for improving accuracy in the README:
+
+---
+
+## Model Performance
+
+Multiple regression models were used to predict device prices based on the provided features.
+
+| **Model**             | **Training MSE** | **Testing MSE** | **Training R² Score** | **Testing R² Score** |
+|------------------------|------------------|------------------|-----------------------|-----------------------|
+| Linear Regression      | 2.171 × 10⁻³    | 1.677 × 10⁻³    | 0.7708               | 0.7911               |
+| Decision Tree          | 1.230 × 10⁻³³   | 5.000 × 10⁻⁶    | 1.0000               | 0.9994               |
+| Random Forest          | 2.602 × 10⁻⁶    | 5.000 × 10⁻⁶    | 0.9997               | 0.9994               |
+| XGBoost                | 1.807 × 10⁻⁵    | 1.000 × 10⁻⁵    | 0.9981               | 0.9988               |
+
+### Key Observations
+
+- **Decision Tree** and **Random Forest** models provide nearly perfect performance with the lowest MSE and highest R² scores.
+- **XGBoost** performs exceptionally well with minimal testing error and high accuracy.
+- **Linear Regression** serves as a baseline model but performs relatively lower in accuracy.
+
+
+## Git Clone and Run the App
+
+1. **Clone the Repository**
+
+2. **Install Dependencies**
+
+    ```
+    pip install -r requirements.txt
+    ```
+
+
+3. **Run the App**
+
+    ```
+    streamlit run app.py
+    ```
 
