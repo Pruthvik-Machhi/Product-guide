@@ -1,9 +1,9 @@
 README.md
 setup.py
-product-guide/__init__.py
-product-guide/data_converter.py
-product-guide/data_ingestion.py
-product-guide/retrieval_generation.py
+product_guide/__init__.py
+product_guide/data_converter.py
+product_guide/data_ingestion.py
+product_guide/retrieval_generation.py
 product_guide.egg-info/PKG-INFO
 product_guide.egg-info/SOURCES.txt
 product_guide.egg-info/dependency_links.txt

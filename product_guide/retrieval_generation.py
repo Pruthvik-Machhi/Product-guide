@@ -1,3 +1,5 @@
+import numpy as np
+
 def find_top_matching(data, selected_values, top_n=5):
     """
     Find the top matching items based on the selected values.

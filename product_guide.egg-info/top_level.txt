@@ -1,1 +1,1 @@
-product-guide
+product_guide
