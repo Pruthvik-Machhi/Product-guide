@@ -17,6 +17,20 @@ This project is designed to predict the price of devices based on user-specified
 - **Budget-Aware Recommendations**: Considers user budget while ranking and recommending devices.
 
 ---
+
+## Dataset
+
+The dataset was webscraped from **Smartprix** using **Beautiful Soup** and saved in CSV format. It includes device features such as:
+
+- Processor  
+- RAM  
+- Storage  
+- Display  
+- Battery  
+- Price  
+- Brand, and more.  
+
+The data serves as the foundation for price prediction and recommendation tasks.
 ## Working
 
 1. **Input Features**: Accepts user-provided specifications (e.g., processor, RAM, storage, etc.).
