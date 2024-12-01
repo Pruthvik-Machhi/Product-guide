@@ -1,6 +1,7 @@
 # Smart Mobile Guide
 
 This project is designed to predict the price of devices based on user-specified features and recommend devices that match the desired features within a given budget. It leverages a custom Python package, published on PyPI, for seamless data preprocessing, analysis, and recommendations.
+
 ---
 ## **Video Demo**: [YouTube Video](https://www.youtube.com/watch?v=cBVQuHSqev4)  
 
