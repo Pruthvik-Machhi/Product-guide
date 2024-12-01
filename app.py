@@ -8,7 +8,7 @@ from product_guide.data_ingestion import load_model_and_scaler, load_data
 
 model, scaler = load_model_and_scaler()
 
-st.title("Mobile Phone Price Prediction")
+st.title("Smart Mobile Guide")
 
 def main():
     brand = st.selectbox('Select Brand', ['redmi', 'oppo', 'oneplus', 'other', 'infinix', 'samsung', 'vivo', 'motorola', 'realme', 'mi', 'tecno', 'xiaomi'])
