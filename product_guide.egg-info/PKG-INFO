@@ -7,3 +7,7 @@ Requires-Dist: numpy==1.26.4
 Requires-Dist: pandas==2.1.4
 Requires-Dist: pyprik==0.0.1
 Requires-Dist: scikit-learn==1.4.2
+Requires-Dist: langchain==0.3.13
+Requires-Dist: datasets
+Requires-Dist: pypdf
+Requires-Dist: python-dotenv
