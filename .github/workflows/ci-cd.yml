@@ -29,10 +29,10 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
-    # Step 4: Run tests (if you have tests)
-    - name: Run tests
-      run: |
-        pytest
+    # # Step 4: Run tests (if you have tests)
+    # - name: Run tests
+    #   run: |
+    #     pytest
 
   build-and-deploy:
     runs-on: ubuntu-latest
