@@ -73,3 +73,77 @@ In this project, we implemented a **Retrieval-Augmented Generation (RAG)** chatb
    - The chatbot seamlessly integrates RAG to retrieve and generate responses, providing personalized assistance and enhancing user engagement.
 
 ---
+Here’s the updated README with the instructions for Docker installation and creating/running the Docker image locally:
+
+---
+
+## Create a Conda Environment
+
+```bash
+conda create -p <env_name> python=3.10 -y
+```
+
+## Activate Your Conda Environment
+
+```bash
+conda activate <env_path>
+```
+
+- If activating on bash terminal use this command:
+
+```bash
+source activate ./<env_name>
+```
+
+- Else, use:
+
+```bash
+conda activate <env_path>
+```
+
+## Install Dependencies from `requirements.txt`
+
+```bash
+pip install -r requirements.txt
+```
+
+## Create a `.env` File to Store Your Environment Variables
+
+```env
+GROQ_API_KEY=""
+ASTRA_DB_API_ENDPOINT=""
+ASTRA_DB_APPLICATION_TOKEN=""
+ASTRA_DB_KEYSPACE=""
+HF_TOKEN=""
+```
+
+## Download and Install Docker
+
+1. Download Docker from [here](https://www.docker.com/products/docker-desktop).
+2. Follow the installation instructions based on your operating system.
+
+## Build and Run Docker Image Locally
+
+### 1. Build the Docker Image
+
+After installing Docker, navigate to your project directory and run the following command to build the Docker image:
+
+```bash
+docker build -t <appName>:latest .
+```
+
+This command will build the Docker image with the tag `appName`.
+
+### 2. Run the Docker Container
+
+Once the image is built, run the Docker container using the following command:
+
+```bash
+docker run -d -p 8501:8501 --ipc="host" --name=product_guide <appName>:latest
+```
+
+This will start the Streamlit application in a detached mode (`-d`) and map port 8501 on your local machine to port 8501 in the container.
+
+---
+
+By following these instructions, you’ll be able to set up the environment, install dependencies, and run your application in Docker locally.
