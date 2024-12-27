@@ -2,3 +2,9 @@ venv
 .env
 product_guide.egg-info
 test
+templates
+__pycache__
+.pytest_cache/
+*.pyc
+*.pyo
+.git

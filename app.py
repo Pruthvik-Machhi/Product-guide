@@ -100,3 +100,4 @@ if selected_page == "Smart Mobile Prediction":
     prediction_interface()
 elif selected_page == "Chatbot":
     chatbot_interface()
+

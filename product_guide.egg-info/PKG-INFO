@@ -11,3 +11,4 @@ Requires-Dist: langchain==0.3.13
 Requires-Dist: datasets
 Requires-Dist: pypdf
 Requires-Dist: python-dotenv
+Requires-Dist: flask

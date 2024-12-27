@@ -1,7 +1,7 @@
 README.md
 setup.py
 chatbot/__init__.py
-chatbot/chatbot.py
+chatbot/chatbotui.py
 product_guide/__init__.py
 product_guide/data_converter.py
 product_guide/data_ingestion.py
@@ -11,3 +11,4 @@ product_guide.egg-info/SOURCES.txt
 product_guide.egg-info/dependency_links.txt
 product_guide.egg-info/requires.txt
 product_guide.egg-info/top_level.txt
+test/test.py

@@ -7,3 +7,4 @@ langchain==0.3.13
 datasets
 pypdf
 python-dotenv
+flask
