@@ -7,8 +7,8 @@ Additionally, a chatbot is integrated to provide users with flexible assistance 
 
 ## **Demo**:  
 <p align="center">
-  <img src="Research/Screenshot 2024-12-01 144139.png" alt="Screenshot 1" width="45%">
-  <img src="Research/Screenshot 2024-12-01 144216.png" alt="Screenshot 2" width="45%">
+  <img src="Screenshots/Screenshot 2024-12-20 153356.png" alt="Screenshot 1" width="45%">
+  <img src="Screenshots/Screenshot 2024-12-20 154307.png" alt="Screenshot 2" width="45%">
 </p>
 <p align="center">
   <img src="Research/Screenshot 2024-12-01 144139.png" alt="Screenshot 1" width="45%">
@@ -27,7 +27,8 @@ PyPi LINK : https://pypi.org/project/pyprik/
 <p align="center">
   <img src="Research/Screenshot 2024-12-01 144717.png" alt="Screenshot 1" >
 </p>
-## Introduction to Retrieval-Augmented Generation (RAG)
+
+##Retrieval-Augmented Generation (RAG)
 
 In this project, we implemented a **Retrieval-Augmented Generation (RAG)** chatbot to provide users with a conversational interface for enhanced flexibility and assistance. RAG combines the strengths of retrieval-based models and generative models to deliver accurate and contextually relevant responses. It retrieves relevant information from a knowledge base or document store and uses a generative model to craft coherent responses based on the retrieved content.
 
@@ -46,7 +47,9 @@ In this project, we implemented a **Retrieval-Augmented Generation (RAG)** chatb
    By converting the dataset into a document format and using a vector database, the chatbot can retrieve relevant information and generate accurate responses even as the dataset updates.
 
 ---
-
+<p align="center">
+  <img src="Screenshots/Screenshot 2024-12-26 211023.png" alt="Screenshot 1" >
+</p>
 ### Steps
 
 - **Data Preprocessing and Conversion**:  
