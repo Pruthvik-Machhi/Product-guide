@@ -28,7 +28,7 @@ PyPi LINK : https://pypi.org/project/pyprik/
   <img src="Research/Screenshot 2024-12-01 144717.png" alt="Screenshot 1" >
 </p>
 
-##Retrieval-Augmented Generation (RAG)
+## Retrieval-Augmented Generation (RAG)
 
 In this project, we implemented a **Retrieval-Augmented Generation (RAG)** chatbot to provide users with a conversational interface for enhanced flexibility and assistance. RAG combines the strengths of retrieval-based models and generative models to deliver accurate and contextually relevant responses. It retrieves relevant information from a knowledge base or document store and uses a generative model to craft coherent responses based on the retrieved content.
 
@@ -50,6 +50,7 @@ In this project, we implemented a **Retrieval-Augmented Generation (RAG)** chatb
 <p align="center">
   <img src="Screenshots/Screenshot 2024-12-26 211023.png" alt="Screenshot 1" >
 </p>
+
 ### Steps
 
 - **Data Preprocessing and Conversion**:  
@@ -71,9 +72,6 @@ In this project, we implemented a **Retrieval-Augmented Generation (RAG)** chatb
 - **Conversational Chatbot**:  
    - A fully conversational chatbot was developed to handle dynamic queries from users.  
    - The chatbot seamlessly integrates RAG to retrieve and generate responses, providing personalized assistance and enhancing user engagement.
-
----
-Here’s the updated README with the instructions for Docker installation and creating/running the Docker image locally:
 
 ---
 
@@ -145,5 +143,3 @@ docker run -d -p 8501:8501 --ipc="host" --name=product_guide <appName>:latest
 This will start the Streamlit application in a detached mode (`-d`) and map port 8501 on your local machine to port 8501 in the container.
 
 ---
-
-By following these instructions, you’ll be able to set up the environment, install dependencies, and run your application in Docker locally.
