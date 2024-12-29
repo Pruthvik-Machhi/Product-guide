@@ -30,7 +30,7 @@ PyPi LINK : https://pypi.org/project/pyprik/
 
 ## Retrieval-Augmented Generation (RAG)
 
-In this project, we implemented a **Retrieval-Augmented Generation (RAG)** chatbot to provide users with a conversational interface for enhanced flexibility and assistance. RAG combines the strengths of retrieval-based models and generative models to deliver accurate and contextually relevant responses. It retrieves relevant information from a knowledge base or document store and uses a generative model to craft coherent responses based on the retrieved content.
+In this project, i implemented a **Retrieval-Augmented Generation (RAG)** chatbot to provide users with a conversational interface for enhanced flexibility and assistance. RAG combines the strengths of retrieval-based models and generative models to deliver accurate and contextually relevant responses. It retrieves relevant information from a knowledge base or document store and uses a generative model to craft coherent responses based on the retrieved content.
 
 
 ---
